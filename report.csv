@@ -1,0 +1,12 @@
+,Section,Sub-Section,Given DataType,Expected DataType,Given Length,Expected MaxLength,Error Code
+0,L1,L11,digits,digits,1,1,E01
+1,L1,L12,word_characters,word_characters,2,3,E03
+2,L2,L21,word_characters,word_characters,2,1,E03
+3,L2,L22,digits,digits,1,1,E01
+4,L2,L23,digits,word_characters,2,2,E02
+5,L1,L11,word_characters,digits,2,1,E04
+6,L1,L12,others,word_characters,5,3,E04
+7,L3,L31,others,word_characters,1,1,E02
+8,L4,L41,others,word_characters,0,1,E04
+9,L4,L42,digits,digits,8,6,E03
+10,L3,L31,others,word_characters,1,1,E02
